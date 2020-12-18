@@ -1,0 +1,25 @@
+{
+  "name": "remark-remove-comments",
+  "version": "0.1.0",
+  "description": "Remark plugin to remove HTML comments from the processed output",
+  "keywords": [
+    "unified",
+    "remark",
+    "remark-plugin",
+    "comments"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "author": "Alvin <hello@alvin.codes> (https://alvin.codes)",
+  "license": "MIT",
+  "dependencies": {
+    "html-comment-regex": "^1.1.2",
+    "unist-util-visit": "^2.0.3"
+  },
+  "devDependencies": {
+    "remark": "^13.0.0",
+    "tape": "^5.0.1"
+  }
+}
