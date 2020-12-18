@@ -57,7 +57,7 @@ Removes comments.
 
 ## License
 
-[MIT](license) © alvin.codes
+[MIT](LICENSE) © alvin.codes
 
 <!-- Definitions -->
 
