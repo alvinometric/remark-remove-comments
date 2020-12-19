@@ -8,6 +8,10 @@
     "remark-plugin",
     "comments"
   ],
+  "files": [
+    "index.js",
+    "transformer.js"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "tape test.js"
