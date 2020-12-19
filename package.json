@@ -1,6 +1,6 @@
 {
   "name": "remark-remove-comments",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Remark plugin to remove HTML comments from the processed output",
   "keywords": [
     "unified",
