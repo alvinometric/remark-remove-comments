@@ -25,5 +25,13 @@
   "devDependencies": {
     "remark": "^13.0.0",
     "tape": "^5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alvinometric/remark-remove-comments.git"
+  },
+  "homepage": "https://github.com/alvinometric/remark-remove-comments",
+  "bugs": {
+    "url": "https://github.com/alvinometric/remark-remove-comments/issues"
   }
 }

@@ -22,9 +22,8 @@ Say we have the following file, `example.md`:
 
 This is a markdown file, with text in it.
 
-<!-- But in this file there's a comment,
-  like TODO: fix 😅,
-  just for me that I don't want to appear in the HTML output -->
+<!-- But in this file there's a comment, like "TODO: fix 😅",
+  I don't want this to appear in the HTML output, it's just for me -->
 ```
 
 And our script, `example.js`, looks as follows:
