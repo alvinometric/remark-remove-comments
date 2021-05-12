@@ -1,7 +1,11 @@
 # remark-remove-comments
 
+<!-- prettier-ignore-start -->
 [![Downloads][downloads-badge]][downloads]
 [![Size][size-badge]][size]
+[![version](https://img.shields.io/npm/v/remark-remove-comments.svg?style=flat-square)](https://www.npmjs.com/package/remark-remove-comments)
+[![MIT License](https://img.shields.io/npm/l/remark-remove-comments.svg?style=flat-square)](https://github.com/alvinometric/remark-remove-comments/blob/main/LICENSE)
+<!-- prettier-ignore-end -->
 
 [**Remark**](https://github.com/remarkjs/remark) plugin to remove HTML comments from the processed output.
 
@@ -63,7 +67,7 @@ Removes comments.
 
 <!-- Definitions -->
 
-[downloads-badge]: https://img.shields.io/npm/dm/remark-remove-comments.svg
+[downloads-badge]: https://img.shields.io/npm/dm/remark-remove-comments.svg?style=flat-square
 [downloads]: https://www.npmjs.com/package/remark-remove-comments
-[size-badge]: https://img.shields.io/bundlephobia/minzip/remark-remove-comments.svg
+[size-badge]: https://img.shields.io/bundlephobia/minzip/remark-remove-comments.svg?style=flat-square
 [size]: https://bundlephobia.com/result?p=remark-remove-comments
