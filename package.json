@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "remark": "^13.0.0",
-    "tape": "^5.0.1"
+    "tape": "^5.2.2"
   },
   "repository": {
     "type": "git",
