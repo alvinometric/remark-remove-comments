@@ -20,7 +20,7 @@
   "license": "MIT",
   "dependencies": {
     "html-comment-regex": "^1.1.2",
-    "unist-util-visit": "^2.0.3"
+    "unist-util-visit": "^4.1.0"
   },
   "devDependencies": {
     "remark": "^13.0.0",
