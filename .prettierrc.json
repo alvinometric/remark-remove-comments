@@ -4,14 +4,5 @@
   "singleQuote": true,
   "arrowParens": "always",
   "semi": true,
-  "trailingComma": "all",
-  "overrides": [
-    {
-      "files": "*.scss",
-      "options": {
-        "parser": "scss",
-        "singleQuote": false
-      }
-    }
-  ]
+  "trailingComma": "all"
 }

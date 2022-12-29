@@ -1,7 +1,9 @@
-const transformer = require('./transformer');
+import transformer from './transformer.js';
 
 function attacher() {
   return transformer;
 }
 
-module.exports = attacher;
+export { transformer };
+
+export default attacher;

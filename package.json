@@ -9,22 +9,21 @@
     "comments"
   ],
   "files": [
-    "index.js",
-    "transformer.js"
+    "index.js"
   ],
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "tape test.js"
+    "test": "node test.js"
   },
   "author": "Alvin <hello@alvin.codes> (https://alvin.codes)",
   "license": "MIT",
   "dependencies": {
     "html-comment-regex": "^1.1.2",
-    "unist-util-visit": "^2.0.3"
+    "unist-util-visit": "^4.1.1"
   },
   "devDependencies": {
-    "remark": "^13.0.0",
-    "tape": "^5.2.2"
+    "remark": "^14.0.2"
   },
   "repository": {
     "type": "git",

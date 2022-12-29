@@ -1,5 +1,5 @@
-const visit = require('unist-util-visit');
-const htmlCommentRegex = require('html-comment-regex');
+import { visit, SKIP } from 'unist-util-visit';
+import htmlCommentRegex from 'html-comment-regex';
 
 // Where the stuff actually happens!
 const removeComments = (tree, file) => {
@@ -10,7 +10,7 @@ const removeComments = (tree, file) => {
       // remove node
       parent.children.splice(index, 1);
       // Do not traverse `node`, continue at the node *now* at `index`. http://unifiedjs.com/learn/recipe/remove-node/
-      return [visit.SKIP, index];
+      return [SKIP, index];
     }
   };
 
@@ -19,4 +19,4 @@ const removeComments = (tree, file) => {
   visit(tree, 'jsx', handler);
 };
 
-module.exports = removeComments;
+export default removeComments;
