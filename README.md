@@ -33,13 +33,13 @@ This is a markdown file, with text in it.
 And our script, `example.js`, looks as follows:
 
 ```js
-const fs = require('fs');
-const remark = require('remark');
-const removeComments = require('remark-remove-comments');
+import { readFileSync } from 'node:fs';
+import remark from 'remark';
+import removeComments from 'remark-remove-comments';
 
 remark()
   .use(removeComments)
-  .process(fs.readFileSync('example.md', 'utf-8'), function (err, file) {
+  .process(readFileSync('example.md', 'utf-8'), (err, file) => {
     if (err) throw err;
     console.log(String(file));
   });
@@ -57,9 +57,7 @@ This is a markdown file, with text in it.
 
 ### `remark().use(removeComments)`
 
-Removes comments.
-
-- Removes every HTML node that matches [this regex](https://github.com/stevemao/html-comment-regex)
+Removes every HTML node that matches [this regex](https://github.com/stevemao/html-comment-regex)
 
 ## License
 
