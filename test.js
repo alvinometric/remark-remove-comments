@@ -1,6 +1,7 @@
-const remark = require('remark');
-const test = require('tape');
-const removeComments = require('.');
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { remark } from 'remark';
+import removeComments from './index.js';
 
 const original = `
 <!-- This is comment #1 -->
@@ -13,18 +14,14 @@ const jsxBlock = `<b>References:</b> [README](./README.md)<!-- -->, [CONTRIBUTIN
 test('Removes HTML comment', function (t) {
   const noComments = remark().use(removeComments).processSync(original).toString();
 
-  t.equal(noComments, `Hello this is Markdown and it's a fantastic format.\n`);
-
-  t.end();
+  assert.equal(noComments, `Hello this is Markdown and it's a fantastic format.\n`);
 });
 
 test('Removes HTML comment in JSX block', function (t) {
   const noComments = remark().use(removeComments).processSync(jsxBlock).toString();
 
-  t.equal(
+  assert.equal(
     noComments,
     `<b>References:</b> [README](./README.md), [CONTRIBUTING](./CONTRIBUTING.md)\n`,
   );
-
-  t.end();
 });
