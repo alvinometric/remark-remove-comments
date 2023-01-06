@@ -9,7 +9,8 @@
     "comments"
   ],
   "files": [
-    "index.js"
+    "index.js",
+    "transformer.js"
   ],
   "type": "module",
   "main": "index.js",
