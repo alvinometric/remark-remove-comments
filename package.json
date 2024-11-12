@@ -10,7 +10,9 @@
   ],
   "files": [
     "index.js",
-    "transformer.js"
+    "index.d.ts",
+    "transformer.js",
+    "transformer.d.ts"
   ],
   "type": "module",
   "main": "index.js",
